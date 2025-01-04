@@ -14,7 +14,7 @@ function App() {
     </header>
       <Routes>
         <Route  path="/cadastro"  element={<Register />}/> 
-        <Route  path="/login"  element={<Login />}/> 
+        <Route  path="/"  element={<Login />}/> 
         <Route path="/listar-usuarios" element={<ListarUsuarios />} />
       </Routes>
     </BrowserRouter>

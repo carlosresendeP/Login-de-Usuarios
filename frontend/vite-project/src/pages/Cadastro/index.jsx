@@ -41,7 +41,7 @@ function Register() {
                 <input ref={passwordRef} type="password" name="senha" placeholder="Senha" className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none" />
                 <button className="w-full bg-blue-500 text-white py-2 px-4 rounded-md font-semibold tracking-tighter transition-colors duration-300 hover:bg-red-500">Cadastrar-se</button>
             </form>
-            <Link to='/login' className="text-blue-700 hover:text-red-500  mt-4 block text-center"> Já tem uma Conta? Faça o Login</Link>
+            <Link to='/' className="text-blue-700 hover:text-red-500  mt-4 block text-center"> Já tem uma Conta? Faça o Login</Link>
         </div>
     )
 }
